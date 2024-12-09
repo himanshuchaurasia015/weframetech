@@ -10,14 +10,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className=" relative">
-        <div className=" top-0 right-0 left-0 fixed z-50">
-          <Header />
-        </div>
-        <main className="pt-[var(--header-height)] border-b-[0.5px] pb-[80px] border-[#39393930]">
+        
           {children}
-        </main>
 
-        <Footer />
       </body>
     </html>
   );

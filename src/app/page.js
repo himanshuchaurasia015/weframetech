@@ -5,6 +5,13 @@ import Slider from "@/Components/Slider";
 
 export default function Home() {
   return (
+    <>
+    <div className=" top-0 right-0 left-0 fixed z-50">
+    <Header />
+
+  </div>
+  <main className="pt-[var(--header-height)] border-b-[0.5px] pb-[80px] border-[#39393930]">
+
     <div className="">
       <div className="h-[45px] w-[159px] ml-[34px] mt-[17px] flex gap-[8px]">
         <div>
@@ -121,6 +128,11 @@ export default function Home() {
           </div>
         </div>
       </div>
+    </div>
+    </main>
+
+    <Footer />
+
     </div>
   );
 }
