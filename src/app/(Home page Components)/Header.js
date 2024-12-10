@@ -8,7 +8,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Image
-            src="/group.png"
+            src="Group.png"
             alt="Logo"
             height={65}
             width={133}
