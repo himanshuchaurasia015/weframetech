@@ -1,13 +1,18 @@
+import Image from "next/image";
+
+Image;
 export default function Header() {
   return (
     <header className="container min-w-full mx-auto px-4 h-[168px] border-b-[1px] bg-white block">
       <nav className="space-y-5">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <img
-            src="group.png"
+          <Image
+            src="/group.png"
             alt="Logo"
-            className="h-[65px] w-[133px] mt-[33px]"
+            height={65}
+            width={133}
+            className=" mt-[33px]"
           />
 
           {/* Search Bar */}
