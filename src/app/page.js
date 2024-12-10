@@ -1,9 +1,9 @@
 import Description from "@/app/(Home page Components)/Description";
 import ProductCard from "@/app/(Home page Components)/ProductCard";
 import Productdetails from "@/app/(Home page Components)/Productdetails";
-import Footer from "@/Components/Footer";
-import Header from "@/Components/Header";
-import Slider from "@/Components/Slider";
+import Footer from "@/app/(Home page Components)/Footer";
+import Header from "@/app/(Home page Components)/Header";
+import Slider from "@/app/(Home page Components)/Slider";
 export default function Home() {
   return (
     <>

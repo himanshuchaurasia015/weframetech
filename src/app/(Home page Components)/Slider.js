@@ -1,4 +1,4 @@
-import ProductCard from "../app/(Home page Components)/ProductCard";
+import ProductCard from "./ProductCard";
 
 function Slider() {
   return (
